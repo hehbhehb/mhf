@@ -1,0 +1,10 @@
+1. how to insert my code ?
+     a. write a new callback func, like user_func_sample()
+     b. modify the main(), replace mhf_server_set_callback(user_func_sample) with your new callback func.
+     
+2. install&run
+
+    cd mhf
+    make
+    ./mhf.x -p 80 -n 4
+
